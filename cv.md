@@ -20,6 +20,7 @@ I have a degree in economics and 10+ years of experience in administrative work.
 **A task from Codewars:**
 >Convert number to reversed array of digits
 >Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
 ```
 def digitize(n):
     return map(int, str(n)[::-1])
