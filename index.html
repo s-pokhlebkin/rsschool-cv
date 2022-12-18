@@ -1,18 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+<div class="container">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV HTML</title>
+    <title>CV_HTML</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header1">
-        Sergei Pokhlebkin
+    <header id="top">
+        <div class="name">Sergei Pokhlebkin</div>
+    </header>
+    
+    <!-- <h1 id="top" class="name">Sergei Pokhlebkin</h1> -->
+    <h2 class="proffesion">Frontend developer</h2>
+    <nav class="menu">
+        <ul>
+            <li class="menu_items"><a href="#top">TOP</a></li>
+            <li class="menu_items"><a href="#contacts">CONTACTS</a></li>
+        </ul>
+    </nav>
+    <div class="container2">
+    
+        <aside class="side">
+            <div class="photo">
+                <img src="#" alt="Photo of Sergey Pokhlebkin">
+            </div>
+            <div class="card">                
+                    <h3>Contact</h3>
+                        <ul>
+                                <li>Mobile:+79114033354</li>
+                                <li>Telegram:@spokhlebkin</li>
+                                <li>E-mail:svpok@gmail.com</li>
+                        </ul>
+            </div>
+            <div class="card">
+                <h3>Languages</h3>
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - fluent</li>
+                    </ul>
+            </div>
+            <div class="card">
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>Fast learner</li>
+                    <li>Team player</li>
+                    <li>Responsible</li>
+                    <li>Problem solver</li>
+                </ul>
+            </div>
+            
+        </aside>
+        <div class="section">
+            <div class="card2">
+                <h3>Profile</h3>
+                    <p>I've just started to learn frontend development at rs-school. Previously i have finished a python beginers course at Hexlet. </p>
+                    <p>I have a degree in economics and 10+ years of experience in administrative work.</p>
+            </div>
+            <div class="card2">
+                <h3>Education</h3>
+                <p>2004 - Petrozavodsk State Univercity</p>
+            </div>
+            <div class="card2">
+                <h3>Courses</h3>
+                    <ul>
+                        <li>Hexlet: Python basics</li>
+                        <li>RS-School: FrontEnd developer:stage 0 (in progress)</li>
+                    </ul>
+            </div>
+            <div class="card2">
+                <h3>Experience</h3>
+                <p>2010-2015 - Manager - Coffee-tea.ptz</p>
+                <p>2015-2022 - It-Engineer - Cozy shop</p>
+            </div>
+            <div class="card2">
+                <h3>Code example</h3>
+                <h4>A task from Codewars:</h4>
+                    <p>Convert number to reversed array of digits</p>
+                    <p>Given a random non-negative number, you have to return the digits of this number within an array in reverse order.</p>
+                    <p>def digitize(n):
+                    return map(int, str(n)[::-1])</p>
+            </div>
+        </div>
     </div>
-    <div class="header2">
-        Frontend developer
-    </div>
+</div>
+    
 </body>
+<footer class="footer">
+    <div class="footer-items">Sergey Pokhlebkin, 2022</div>
+    <a href="#" class="footer-items">GitHub</a>
+    <a href="#" class="footer-items">RS-School</a>
+</footer>
+</div>
 </html>
